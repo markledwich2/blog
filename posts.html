@@ -1,0 +1,10 @@
+---
+title: Posts
+image_view: false
+---
+
+{% for post in site.posts %}
+	<div class="post">
+		<a href="{{ post.url }}"><span>{{ post.title }}</span></a>
+	</div>
+{% endfor %}
