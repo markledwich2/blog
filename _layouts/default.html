@@ -26,8 +26,8 @@
 
 
 	{% if page.featured_image %}
-		<meta property="og:image" content="{{ site.baseurl }}/{{page.featured_image}}" />
-		<meta name="twitter:image" content="{{ site.baseurl }}/{{page.featured_image}}" />
+		<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
+		<meta name="twitter:image" content="{{ page.featured_image | absolute_url }}" />
   	{% endif %}
 
 </head>
