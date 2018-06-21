@@ -23,6 +23,13 @@
 			ga("send", "pageview");
 		</script>
 	{% endif %}
+
+
+	{% if page.featured_image %}
+		<meta property="og:image" content="{{page.featured_image}}" />
+		<meta name="twitter:image" content="{{page.featured_image}}" />
+  	{% endif %}
+
 </head>
 	<body>
 		<div style="padding: 30px 20px 20px 40px;background-color:#fff200">
