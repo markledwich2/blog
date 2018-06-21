@@ -5,9 +5,15 @@ html , body {
 }
 
 body, input, textarea {
-	font-family: 'Fira Sans', sans-serif;
+	font-family:  "Balto";
 	color: #222;
 	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+	font-family: "Balto";
+	color: #4c4e4d;
+	font-weight: bold;
 }
 
 h1 {
@@ -52,7 +58,8 @@ hr {
 
 a {
 	text-decoration: none;
-	color: #007eff;
+	color: #4f7177;
+	font-weight: bold;
 }
 
 blockquote {
@@ -63,3 +70,20 @@ blockquote {
     border-left: #4A4A4A 0.4em solid;
     color: #444;
 }
+
+@font-face {
+    font-family: HarrietDisplayBlack;
+    src: url(../fonts/harriet_display_black.woff2);
+}
+
+@font-face {
+    font-family: Balto;
+	src: url(../fonts/baltoweb-book.woff2);
+}
+
+@font-face {
+    font-family: Balto;
+	src: url(../fonts/baltoweb-bold.woff2);
+	font-weight: bold;
+}
+

@@ -4,6 +4,11 @@
 	</a>
 </h1>
 
+
+<div class="post-subheading">
+	{{ include.post.subheading }}
+</div>
+
 <time datetime="{{ include.post.date | date_to_xmlschema }}">
 	{{ include.post.date | date: "%B %-d, %Y" }}
 </time>
